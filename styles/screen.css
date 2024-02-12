@@ -2,8 +2,8 @@ body {
     font-family: Helvetica, sans-serif;
     color: #EAE8FF;
     background: #2D3142;
-    padding: 0 40px;
     text-align: center;
+    padding: 0px 120px;
 }
 
 nav {
@@ -34,7 +34,7 @@ nav ul li a {
 }
 
 h1 {
-    font-size: 8em;
+    font-size: 4em;
     letter-spacing: -2px;
 }
 

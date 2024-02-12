@@ -1,0 +1,133 @@
+:root {
+    --class-bgcolor: silver;
+    --class-border-radius: 10px;
+    --avatar-size: 80px;
+}
+
+.module {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 250px);
+    gap: 20px;
+    background: #2D3142;
+    color: #3D3D3D;
+    margin-bottom: 80px;
+}
+
+.module h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.module p {
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+    margin: auto;
+    margin-top: 50px;
+}
+
+.one {
+    display: grid;
+    grid-template-rows: var(--avatar-size) auto auto;
+    background: var(--class-bgcolor);
+    border-radius: var(--class-border-radius);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.one .avatar {
+    background: radial-gradient(circle, #ff9966, #ff5e62);
+    width: 240px;
+    height: 240px;
+}
+
+.one h2 {
+    font-size: 3.6rem;
+    margin-top: 260px;
+}
+
+.one p {
+    font-size: 1.2rem;
+    margin-top: -50px;
+}
+
+.two {
+    background: var(--class-bgcolor);
+    border-radius: var(--class-border-radius);
+}
+
+.two .avatar {
+    background: radial-gradient(circle, #778899, #5C7080);
+}
+
+.three {
+    background: var(--class-bgcolor);
+    border-radius: var(--class-border-radius);
+}
+
+.three .avatar {
+    background: radial-gradient(circle, #FFFFF0, #FFFFE0);
+}
+
+.four {
+    background: var(--class-bgcolor);
+    border-radius: var(--class-border-radius);
+}
+
+.four .avatar {
+    background: radial-gradient(circle, #63B8FF, #4CAF50, #A9A9A9);
+}
+
+.five {
+    background: var(--class-bgcolor);
+    border-radius: var(--class-border-radius);
+}
+
+.five .avatar {
+    background: radial-gradient(circle, #E74C3C, #C0392B);
+}
+
+.six {
+    background: var(--class-bgcolor);
+    border-radius: var(--class-border-radius);
+}
+
+.six .avatar {
+    background: radial-gradient(circle, #FDFDFD, #FFA07A, #8B4513, #FF0000);
+}
+
+.seven {
+    background: var(--class-bgcolor);
+    border-radius: var(--class-border-radius);
+}
+
+.seven .avatar {
+    background: radial-gradient(circle, #E6BF8A, #DAA520);
+}
+
+.eight {
+    background: var(--class-bgcolor);
+    border-radius: var(--class-border-radius);
+}
+
+.eight .avatar {
+    background: radial-gradient(circle, #00FFFF, #008B8B);
+}
+
+.nine {
+    background: var(--class-bgcolor);
+    border-radius: var(--class-border-radius);
+}
+
+.nine .avatar {
+    background: radial-gradient(circle, #3399CC, #00BFFF);
+}
