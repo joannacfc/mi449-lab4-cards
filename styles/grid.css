@@ -96,3 +96,16 @@
 .nine .avatar {
     background: radial-gradient(circle, #3399CC, #00BFFF);
 }
+
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover,
+.six:hover,
+.seven:hover,
+.eight:hover,
+.nine:hover {
+    background-color: #E2E1E1;
+    cursor: pointer;
+}
