@@ -60,7 +60,7 @@
     margin-top: -50px;
 }
 
-.two {
+.two, .three, .four, .five, .six, .seven, .eight, .nine {
     background: var(--class-bgcolor);
     border-radius: var(--class-border-radius);
 }
@@ -69,63 +69,28 @@
     background: radial-gradient(circle, #778899, #5C7080);
 }
 
-.three {
-    background: var(--class-bgcolor);
-    border-radius: var(--class-border-radius);
-}
-
 .three .avatar {
     background: radial-gradient(circle, #FFFFF0, #FFFFE0);
-}
-
-.four {
-    background: var(--class-bgcolor);
-    border-radius: var(--class-border-radius);
 }
 
 .four .avatar {
     background: radial-gradient(circle, #63B8FF, #4CAF50, #A9A9A9);
 }
 
-.five {
-    background: var(--class-bgcolor);
-    border-radius: var(--class-border-radius);
-}
-
 .five .avatar {
     background: radial-gradient(circle, #E74C3C, #C0392B);
-}
-
-.six {
-    background: var(--class-bgcolor);
-    border-radius: var(--class-border-radius);
 }
 
 .six .avatar {
     background: radial-gradient(circle, #FDFDFD, #FFA07A, #8B4513, #FF0000);
 }
 
-.seven {
-    background: var(--class-bgcolor);
-    border-radius: var(--class-border-radius);
-}
-
 .seven .avatar {
     background: radial-gradient(circle, #E6BF8A, #DAA520);
 }
 
-.eight {
-    background: var(--class-bgcolor);
-    border-radius: var(--class-border-radius);
-}
-
 .eight .avatar {
     background: radial-gradient(circle, #00FFFF, #008B8B);
-}
-
-.nine {
-    background: var(--class-bgcolor);
-    border-radius: var(--class-border-radius);
 }
 
 .nine .avatar {
